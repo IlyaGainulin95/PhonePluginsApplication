@@ -33,7 +33,7 @@ namespace EmployeesLoaderPlugin
         switch(command)
         {
           case "list":
-            int index = 0;
+            int index = 1;
             foreach(var employee in employeesList)
             {
               Console.WriteLine($"{index} Name: {employee.Name} | Phone: {employee.Phone}");
