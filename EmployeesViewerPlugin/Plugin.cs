@@ -45,6 +45,7 @@ namespace EmployeesLoaderPlugin
             string name = Console.ReadLine();
             Console.Write("Phone: ");
             string phone = Console.ReadLine();
+            employeesList.Add(new EmployeesDTO(name, phone));
             Console.WriteLine($"{name} added to employees");
             break;
           case "del":

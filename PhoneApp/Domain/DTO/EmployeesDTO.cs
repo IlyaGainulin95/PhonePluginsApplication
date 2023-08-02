@@ -12,7 +12,15 @@ namespace PhoneApp.Domain.DTO
     public string Phone {
       get { return _phones.Any() ? _phones.LastOrDefault().Value : "-"; } 
     }
-    public void AddPhone(string phone)
+
+    public EmployeesDTO() { }
+
+    public EmployeesDTO(string name, string phone)
+    {
+        Name = name;
+        AddPhone(phone);
+    }
+        public void AddPhone(string phone)
     {
       if(String.IsNullOrEmpty(phone))
       {
