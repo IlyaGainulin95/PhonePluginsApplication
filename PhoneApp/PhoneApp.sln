@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeesLoaderPlugin", "..
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeesViewerPlugin", "..\EmployeesViewerPlugin\EmployeesViewerPlugin.csproj", "{40B8CEFD-6516-4F12-BA3E-51E6BEAE822C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeesLoaderHttpApiPlugin", "..\EmployeesLoaderHttpApiPlugin\EmployeesLoaderHttpApiPlugin.csproj", "{A99075EF-A613-46C2-9202-90C3B5B908FA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{40B8CEFD-6516-4F12-BA3E-51E6BEAE822C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{40B8CEFD-6516-4F12-BA3E-51E6BEAE822C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{40B8CEFD-6516-4F12-BA3E-51E6BEAE822C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A99075EF-A613-46C2-9202-90C3B5B908FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A99075EF-A613-46C2-9202-90C3B5B908FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A99075EF-A613-46C2-9202-90C3B5B908FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A99075EF-A613-46C2-9202-90C3B5B908FA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
